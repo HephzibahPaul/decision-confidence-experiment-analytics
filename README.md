@@ -49,32 +49,32 @@ No machine learning models are used. This is pure Data Analyst work.
 
 ---
 
-## Project Structure
+<h2>Project Structure</h2>
 
+<pre>
 Decision_Confidence_Experiment_Project/
 ├── data/
-│ └── experiment_data.csv
+│   └── experiment_data.csv
 ├── src/
-│ ├── load_data.py
-│ ├── validate_data.py
-│ ├── metrics.py
-│ ├── statistical_tests.py
-│ ├── confidence_scoring.py
-│ ├── visualization.py
-│ └── decision_engine.py
+│   ├── load_data.py
+│   ├── validate_data.py
+│   ├── metrics.py
+│   ├── statistical_tests.py
+│   ├── confidence_scoring.py
+│   ├── visualization.py
+│   └── decision_engine.py
 ├── outputs/
-│ ├── charts/
-│ │ └── conversion_comparison.png
-│ └── tables/
-│ └── summary_metrics.csv
+│   ├── charts/
+│   │   └── conversion_comparison.png
+│   └── tables/
+│       └── summary_metrics.csv
 ├── reports/
-│ └── decision_report.md
+│   └── decision_report.md
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+</pre>
 
-
----
 
 ## How to Run the Project
 
@@ -129,4 +129,4 @@ License
 This project is licensed under the MIT License.
 
 Author: M S Hephzibah Paul
-Role: Aspiring Data Analyst
+Role: Data Analyst (Aspiring)
