@@ -77,57 +77,68 @@ Decision_Confidence_Experiment_Project/
 
 ---
 
-## How to Run the Project
+<h2>How to Run the Project</h2>
 
-### Step 1: Create and activate virtual environment
-```bash
+<h3>Step 1: Create and activate virtual environment</h3>
+<pre>
 python -m venv venv
 venv\Scripts\activate
-Step 2: Install required libraries
+</pre>
+
+<h3>Step 2: Install required libraries</h3>
+<pre>
 pip install -r requirements.txt
-Step 3: Run the analysis
+</pre>
+
+<h3>Step 3: Run the analysis</h3>
+<pre>
 python src/decision_engine.py
-Outputs Generated
-After execution, the following files are created automatically:
+</pre>
 
-Conversion comparison chart
-outputs/charts/conversion_comparison.png
+<hr>
 
-Summary metrics table
-outputs/tables/summary_metrics.csv
+<h2>Outputs Generated</h2>
 
-Decision report (main deliverable)
-reports/decision_report.md
+<ul>
+  <li>Conversion comparison chart<br>
+      <code>outputs/charts/conversion_comparison.png</code></li>
+  <li>Summary metrics table<br>
+      <code>outputs/tables/summary_metrics.csv</code></li>
+  <li>Decision report (main deliverable)<br>
+      <code>reports/decision_report.md</code></li>
+</ul>
 
-Example console output:
-
+<pre>
 Final Decision: LAUNCH
-Decision Report
-The decision_report.md explains:
+</pre>
 
-Conversion lift
+<h2>Decision Report</h2>
 
-Statistical confidence
+<p>The <code>decision_report.md</code> explains:</p>
+<ul>
+  <li>Conversion lift</li>
+  <li>Statistical confidence</li>
+  <li>Decision confidence score</li>
+  <li>Final recommendation with reasoning</li>
+</ul>
 
-Decision confidence score
+<p>This report represents how analysts communicate insights to stakeholders.</p>
 
-Final recommendation with reasoning
+<h2>Why This Project Is Valuable</h2>
 
-This report represents how analysts communicate insights to stakeholders.
+<ul>
+  <li>Focuses on decision-making rather than just calculations</li>
+  <li>Mirrors real-world analytics workflows</li>
+  <li>Script-based execution without notebooks</li>
+  <li>Easy to explain in interviews</li>
+  <li>Suitable for long-term portfolio use</li>
+</ul>
 
-Why This Project Is Valuable
-Focuses on decision-making rather than just calculations
+<h2>License</h2>
 
-Mirrors real-world analytics workflows
+<p>This project is licensed under the MIT License.</p>
 
-Script-based execution without notebooks
-
-Easy to explain in interviews
-
-Suitable for long-term portfolio use
-
-License
-This project is licensed under the MIT License.
-
-Author: M S Hephzibah Paul
+<p>
+Author: M S Hephzibah Paul<br>
 Role: Aspiring Data Analyst
+</p>
