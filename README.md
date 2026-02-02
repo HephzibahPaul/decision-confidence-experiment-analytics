@@ -82,11 +82,8 @@ Decision_Confidence_Experiment_Project/
 ```bash
 python -m venv venv
 venv\Scripts\activate
-
-
 Step 2: Install required libraries
 pip install -r requirements.txt
-
 Step 3: Run the analysis
 python src/decision_engine.py
 Outputs Generated
@@ -132,4 +129,4 @@ License
 This project is licensed under the MIT License.
 
 Author: M S Hephzibah Paul
-Role: Data Analyst (Aspiring)
+Role: Aspiring Data Analyst
