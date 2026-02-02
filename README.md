@@ -73,7 +73,6 @@ Decision_Confidence_Experiment_Project/
 ├── README.md
 └── LICENSE
 
-
 ---
 
 ## How to Run the Project
