@@ -49,7 +49,7 @@ No machine learning models are used. This is pure Data Analyst work.
 
 ---
 
-<h2>Project Structure</h2>
+## Project Structure
 
 <pre>
 Decision_Confidence_Experiment_Project/
@@ -75,6 +75,7 @@ Decision_Confidence_Experiment_Project/
 └── LICENSE
 </pre>
 
+---
 
 ## How to Run the Project
 
