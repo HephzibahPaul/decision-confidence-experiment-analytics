@@ -39,11 +39,11 @@ experiments before making high-stakes decisions.
 
 ## Key Concepts Used
 
-- Conversion rate and lift  
-- Hypothesis testing (z-test for proportions)  
-- Segment stability analysis  
-- Decision confidence scoring  
-- Risk-aware business recommendations  
+- Conversion rate and lift
+- Hypothesis testing (z-test for proportions)
+- Segment stability analysis
+- Decision confidence scoring
+- Risk-aware business recommendations
 
 No machine learning models are used. This is pure Data Analyst work.
 
@@ -114,8 +114,7 @@ Final recommendation with reasoning
 
 This report represents how analysts communicate insights to stakeholders.
 
-Why This Project Is Valuable :
-
+Why This Project Is Valuable
 Focuses on decision-making rather than just calculations
 
 Mirrors real-world analytics workflows
