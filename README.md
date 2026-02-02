@@ -130,7 +130,3 @@ This project is licensed under the MIT License.
 
 Author: M S Hephzibah Paul
 Role: Aspiring Data Analyst
-
-
-Author: M S Hephzibah Paul
-Role: Data Analyst (Aspiring)
