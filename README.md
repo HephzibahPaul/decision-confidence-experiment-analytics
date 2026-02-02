@@ -1,4 +1,3 @@
-```md
 # Decision-Confidence Experiment Evaluation System
 
 This project is an industry-oriented Data Analyst project that evaluates A/B
@@ -52,31 +51,28 @@ No machine learning models are used. This is pure Data Analyst work.
 
 ## Project Structure
 
-```
-
 Decision_Confidence_Experiment_Project/
 ├── data/
-│   └── experiment_data.csv
+│ └── experiment_data.csv
 ├── src/
-│   ├── load_data.py
-│   ├── validate_data.py
-│   ├── metrics.py
-│   ├── statistical_tests.py
-│   ├── confidence_scoring.py
-│   ├── visualization.py
-│   └── decision_engine.py
+│ ├── load_data.py
+│ ├── validate_data.py
+│ ├── metrics.py
+│ ├── statistical_tests.py
+│ ├── confidence_scoring.py
+│ ├── visualization.py
+│ └── decision_engine.py
 ├── outputs/
-│   ├── charts/
-│   │   └── conversion_comparison.png
-│   └── tables/
-│       └── summary_metrics.csv
+│ ├── charts/
+│ │ └── conversion_comparison.png
+│ └── tables/
+│ └── summary_metrics.csv
 ├── reports/
-│   └── decision_report.md
+│ └── decision_report.md
 ├── requirements.txt
 ├── README.md
 └── LICENSE
 
-````
 
 ---
 
@@ -86,75 +82,52 @@ Decision_Confidence_Experiment_Project/
 ```bash
 python -m venv venv
 venv\Scripts\activate
-````
-
-### Step 2: Install required libraries
-
-```bash
+Step 2: Install required libraries
 pip install -r requirements.txt
-```
-
-### Step 3: Run the analysis
-
-```bash
+Step 3: Run the analysis
 python src/decision_engine.py
-```
-
----
-
-## Outputs Generated
-
+Outputs Generated
 After execution, the following files are created automatically:
 
-* Conversion comparison chart
-  `outputs/charts/conversion_comparison.png`
+Conversion comparison chart
+outputs/charts/conversion_comparison.png
 
-* Summary metrics table
-  `outputs/tables/summary_metrics.csv`
+Summary metrics table
+outputs/tables/summary_metrics.csv
 
-* Decision report (main deliverable)
-  `reports/decision_report.md`
+Decision report (main deliverable)
+reports/decision_report.md
 
 Example console output:
 
-```
 Final Decision: LAUNCH
-```
-
----
-
-## Decision Report
-
+Decision Report
 The decision_report.md explains:
 
-* Conversion lift
-* Statistical confidence
-* Decision confidence score
-* Final recommendation with reasoning
+Conversion lift
+
+Statistical confidence
+
+Decision confidence score
+
+Final recommendation with reasoning
 
 This report represents how analysts communicate insights to stakeholders.
 
----
+Why This Project Is Valuable :
 
-## Why This Project Is Valuable
+Focuses on decision-making rather than just calculations
 
-* Focuses on decision-making rather than just calculations
-* Mirrors real-world analytics workflows
-* Script-based execution without notebooks
-* Easy to explain in interviews
-* Suitable for long-term portfolio use
+Mirrors real-world analytics workflows
 
----
+Script-based execution without notebooks
 
-## License
+Easy to explain in interviews
 
+Suitable for long-term portfolio use
+
+License
 This project is licensed under the MIT License.
 
-```
-
----
-
-Author: M S Hephzibah Paul  
+Author: M S Hephzibah Paul
 Role: Data Analyst (Aspiring)
-
-
